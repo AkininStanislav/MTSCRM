@@ -1,0 +1,120 @@
+.add_new_row{
+    max-width:250px;
+    margin-bottom:30px;
+    margin-top:30px;
+}
+.record-text{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:16px;
+    font-weight:600;
+    padding-left:20px;
+    border:1px solid transparent;
+    cursor:pointer;
+    display:flex;
+}
+.record-text:hover{
+    border:1px solid #eee;
+    background-color:#eee;
+    border-radius:10px;
+}
+.record-text:hover .icon-add{
+    opacity:1;
+}
+.record-text:hover .icon-remove{
+    opacity:1;
+}
+.icon-add{
+    opacity:0;
+    font-size:24px;
+    color:red;
+    margin-left:10px;
+}
+.icon-add{
+    font-size:24px;
+    color:#0a04f7;
+    margin-left:10px;
+}
+.icon-add:hover{
+    color:#7876cd;
+}
+.icon-remove{
+    opacity:0;
+    font-size:24px;
+    color:#f70424;
+    margin-left:5px;
+}
+.icon-remove:hover{
+    color:#c53f51;
+}
+.table-row{
+    border: 1px solid #c7c7c7;
+    border-radius:5px;
+}
+.added_new-row{
+    background: #fccbcb;
+}
+.handle{
+    margin-right: 20px;
+    padding-top: 5px;
+}
+.checkbox-value
+{
+    width: 18px;
+    height: 18px;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+.loader-icon{
+    width: 20px;
+    height: 20px;
+}
+.p-relative{
+    position: relative;
+}
+.loader-fon {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: #ffffff url(../../assets/preloaderFon.svg) top center no-repeat;
+    z-index: 1000;
+}
+.replace-source, .replace-user{
+    font-size:24px;
+    color:green;
+    margin-left:10px;
+}
+
+.replace-source:hover, .replace-user:hover{
+    color:greenyellow;
+}
+.close-source, .close-user{
+    font-size:24px;
+    color:red;
+    margin-left:10px;
+}
+
+.close-source:hover, .close-user:hover{
+    color:darkred;
+}
+.d-grid{
+    display:  table-caption!important;
+}
+.current-user-rec{
+    background-color: #7876cd;
+}
+.mr-5px{
+    margin-right: 5px;
+}
+.save-rec-section, .delete-rec-section, .edit-rec-section, .delete-rec-new{
+    width: 240px;
+    float: right;
+}
+.edit-select-user, .edit-select-source{
+    display: flex;
+}
+.user-name-text{
+    margin-right: 10px;
+}
+.add_new_user{
+    margin-left: 30px;
+}
